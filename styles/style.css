@@ -257,12 +257,64 @@
 
 
 
+/* Testimonial section  */
 
 
+.testimonial-title {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
 
 
+.testimonial-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
 
+.testimonial-content {
+    background-image: url("../images/testimonial.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+    width: 50%;
+    padding: 50px;
+    border-radius: 30px;
+}
 
+.testimonial-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35vh;
+}
+
+.comments {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin: 30px 0;
+}
+
+.author {
+    color: #F40469;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 
 

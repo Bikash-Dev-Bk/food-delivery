@@ -32,7 +32,9 @@
 }
 
 
-.sign-in {
+.sign-in-button {
+    border: none;
+    background-color: transparent;
     font-size: 18px;
     font-weight: 600;
 }
@@ -157,9 +159,9 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
+    width: 1280px;
     margin: 100px 0;
-    padding: 80px;
+    padding: 80px 0;
     border-radius: 30px;
 }
 
@@ -167,11 +169,13 @@
     font-size: 48px;
     font-weight: 400;
     color: white;
+    padding-left: 80px;
 }
 
 
-.highlight-button-container{
+.highlight-button-container {
     margin-top: 45px;
+    padding-left: 80px;
 }
 
 .download-button2 {
@@ -185,13 +189,75 @@
     margin-right: 40px;
 }
 
-.browse-button{
+.browse-button {
     border: none;
-    background-color:transparent;
+    background-color: transparent;
     color: white;
     font-size: 18px;
     font-weight: 600;
 }
+
+
+/* How it works section */
+
+.works-container {
+    max-width: 950px;
+    margin: 0 auto;
+
+}
+
+.works-content {
+    margin: 100px 0 200px;
+}
+
+.works {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+}
+
+.works-title {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.works-bg {
+    background-image: url("../images/works/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.shadow-box {
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 60px 20px;
+}
+
+.works-bg>img {
+    text-align: center;
+}
+
+.box-title {
+    color: #F40469;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+
+
+
 
 
 

@@ -421,7 +421,7 @@
 .footer-content {
     display: flex;
     gap: 200px;
-    padding-top: 29%;
+    padding-top: 18%;
 }
 
 .footer-content2 {
@@ -437,7 +437,20 @@
 
 
 
+.footer-images{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
 
+.footer-images > img{
+    width: 12%;
+    height: auto;
+    display: block;
+}
 
 
 

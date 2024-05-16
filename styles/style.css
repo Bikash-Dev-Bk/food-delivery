@@ -638,7 +638,36 @@
         width: 25%;
     }
 
+    /* footer  */
+
+    .footer-container {
+        background-image: none;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 70px;
+    }
+
+    .footer-content2{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-responsive{
+        padding: 15px;
+    }
+
+    
+    .footer-info {
+        margin-top: 20px;
+    }
+
+    .footer-images {
+        gap: 20px;
+    }
 }
+
 
 
 /* -------------------------------------------
@@ -771,6 +800,32 @@
 
     .testimonial-mobile{
         width: 15%;
+    }
+
+    /* footer  */
+
+    .footer-container {
+        background-image: none;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 100px;
+    }
+
+
+    .footer-responsive{
+        padding: 15px;
+    }
+
+    
+    .footer-info {
+        margin-top: 20px;
+    }
+
+    .footer-images {
+        gap: 20px;
     }
 
 }

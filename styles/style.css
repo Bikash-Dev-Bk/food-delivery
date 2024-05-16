@@ -408,6 +408,34 @@
 }
 
 
+.footer-container {
+    background-image: url("../images/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+
+.footer-content {
+    display: flex;
+    gap: 200px;
+    padding-top: 29%;
+}
+
+.footer-content2 {
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+}
+
+.footer-info {
+    margin-top: 100px;
+}
+
+
+
 
 
 

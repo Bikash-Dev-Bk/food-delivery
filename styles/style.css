@@ -544,7 +544,6 @@
 
 
     .hero-container {
-        display: flex;
         flex-direction: column;
         padding: 50px 30px;
     }
@@ -559,6 +558,21 @@
 
     .download-button1 {
         width: 70%;
+    }
+
+    /* How it works section */
+
+    .works {
+        flex-direction: column;
+    }
+
+    .works-content{
+        margin: 50px 0 80px;
+        padding: 25px;
+    }
+
+    .works-title {
+        font-size: 38px;
     }
 }
 
@@ -613,7 +627,6 @@
 
 
     .hero-container {
-        display: flex;
         flex-direction: column;
         padding: 50px 30px;
     }
@@ -623,6 +636,21 @@
     }
 
     .hero-title {
+        font-size: 38px;
+    }
+
+    /* How it works section */
+
+    .works {
+        flex-direction: column;
+    }
+
+    .works-content{
+        margin: 50px 0 80px;
+        padding: 25px;
+    }
+
+    .works-title {
         font-size: 38px;
     }
 

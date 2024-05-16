@@ -155,17 +155,16 @@
 
 
 .popular-title-container {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 25px;
 }
 
 
 .popular-title {
     font-size: 32px;
     font-weight: 400;
-
 }
 
 .popular-button {
@@ -188,6 +187,7 @@
     gap: 30px;
     margin-top: 40px;
     margin-bottom: 200px;
+    padding: 0 25px;
 }
 
 
@@ -235,8 +235,6 @@
     align-items: center;
     margin-top: 5px;
 }
-
-
 
 
 
@@ -407,8 +405,8 @@
     font-weight: 700;
 }
 
-/* footer  */
 
+/* footer  */
 
 .footer-container {
     background-image: url("../images/footer-bg.png");
@@ -424,6 +422,8 @@
     display: flex;
     gap: 200px;
     padding-top: 18%;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 .footer-content2 {
@@ -435,8 +435,6 @@
 .footer-info {
     margin-top: 100px;
 }
-
-
 
 
 .footer-images {
@@ -459,57 +457,18 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -------------------------------------------
               mobile devices styles
  ---------------------------------------------*/
 
 @media only screen and (max-width: 576px) {
-    .abc {
-        width: 100%;
-    }
 
     /* navbar  */
 
     .navbar {
         padding: 16px;
     }
+
 
     /* banner  */
 
@@ -542,8 +501,8 @@
         padding: 5px 20px;
     }
 
-    /* hero section */
 
+    /* hero section */
 
     .hero-container {
         flex-direction: column;
@@ -562,6 +521,59 @@
         width: 70%;
     }
 
+
+    /* Popular on New York area section  */
+
+    .popular-title-container {
+        padding: 0 25px;
+        margin-top: 60px;
+    }
+
+    .popular-title {
+        font-size: 26px;
+
+    }
+
+    .popular-button {
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .popular-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 30px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+
+    .popular-item:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .popular-item:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .popular-item:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .popular-item:nth-child(4) {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .popular-item:nth-child(5) {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+
     /* How it works section */
 
     .works {
@@ -577,8 +589,8 @@
         font-size: 28px;
     }
 
-    /* Highlight section  */
 
+    /* Highlight section  */
 
     .highlight-container {
         width: 100%;
@@ -604,8 +616,8 @@
         margin-right: 0px;
     }
 
-    /* Testimonial section  */
 
+    /* Testimonial section  */
 
     .testimonial-title {
         font-size: 28px;
@@ -634,9 +646,10 @@
         font-size: 15px;
     }
 
-    .testimonial-mobile{
+    .testimonial-mobile {
         width: 25%;
     }
+
 
     /* footer  */
 
@@ -650,15 +663,16 @@
         padding-top: 70px;
     }
 
-    .footer-content2{
+    .footer-content2 {
         display: flex;
         flex-direction: column;
     }
-    .footer-responsive{
+
+    .footer-responsive {
         padding: 15px;
     }
 
-    
+
     .footer-info {
         margin-top: 20px;
     }
@@ -675,15 +689,13 @@
  ---------------------------------------------*/
 
 @media only screen and (min-width: 576px) and (max-width: 992px) {
-    .abc {
-        width: 100%;
-    }
 
     /* navbar  */
 
     .navbar {
         padding: 16px;
     }
+
 
     /* banner  */
 
@@ -716,8 +728,8 @@
         padding: 5px 20px;
     }
 
-    /* hero section */
 
+    /* hero section */
 
     .hero-container {
         flex-direction: column;
@@ -731,6 +743,59 @@
     .hero-title {
         font-size: 38px;
     }
+
+
+    /* Popular on New York area section  */
+
+    .popular-title-container {
+        padding: 0 25px;
+        margin-top: 60px;
+    }
+
+    .popular-title {
+        font-size: 26px;
+
+    }
+
+    .popular-button {
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .popular-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 30px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+
+    .popular-item:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .popular-item:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .popular-item:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .popular-item:nth-child(4) {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .popular-item:nth-child(5) {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
 
     /* How it works section */
 
@@ -747,8 +812,8 @@
         font-size: 38px;
     }
 
-    /* Highlight section  */
 
+    /* Highlight section  */
 
     .highlight-container {
         width: 100%;
@@ -798,15 +863,11 @@
         font-size: 15px;
     }
 
-    .testimonial-mobile{
+    .testimonial-mobile {
         width: 15%;
     }
 
     /* footer  */
-
-    .footer-container {
-        background-image: none;
-    }
 
     .footer-content {
         flex-direction: column;
@@ -815,11 +876,11 @@
     }
 
 
-    .footer-responsive{
+    .footer-responsive {
         padding: 15px;
     }
 
-    
+
     .footer-info {
         margin-top: 20px;
     }

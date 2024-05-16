@@ -308,7 +308,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    width: 1280px;
+    max-width: 1280px;
     margin: 100px 0;
     padding: 80px 0;
     border-radius: 30px;
@@ -566,7 +566,7 @@
         flex-direction: column;
     }
 
-    .works-content{
+    .works-content {
         margin: 50px 0 80px;
         padding: 25px;
     }
@@ -574,6 +574,34 @@
     .works-title {
         font-size: 38px;
     }
+
+    /* Highlight section  */
+
+
+    .highlight-container {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .highlight-title {
+        font-size: 28px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .highlight-button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 0px;
+        padding: 0 15px;
+    }
+
+    .download-button2 {
+        padding: 15px 20px;
+        margin-right: 0px;
+    }
+
 }
 
 
@@ -645,13 +673,39 @@
         flex-direction: column;
     }
 
-    .works-content{
+    .works-content {
         margin: 50px 0 80px;
         padding: 25px;
     }
 
     .works-title {
         font-size: 38px;
+    }
+
+    /* Highlight section  */
+
+
+    .highlight-container {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .highlight-title {
+        font-size: 38px;
+        font-weight: 400;
+        color: white;
+        padding-left: 60px;
+    }
+    
+    
+    .highlight-button-container {
+        margin-top: 45px;
+        padding-left: 60px;
+    }
+
+    .download-button2 {
+        padding: 15px 30px;
+        margin-right: 20px;
     }
 
 }
